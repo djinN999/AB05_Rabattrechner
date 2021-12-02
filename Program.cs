@@ -31,6 +31,8 @@ namespace AB05
 				gesamtpreis1 = einzelpreis * anzahl;
 				gesamtpreis2 = gesamtpreis1 * prozent;
 				rabattbetrag = gesamtpreis1 - gesamtpreis2;
+				string.Format("{0:0.00}", rabattbetrag);
+
 
 			Console.WriteLine("Für das Produkt {0} ergibt sich folgende Berechnung mit einem Rabattsatz von {1} %", ware, prozent);
 			Console.WriteLine("\nDer Kunde kauft: {0} Stück {1} zu einem Einzelpreis von {2}", anzahl, ware, einzelpreis);
