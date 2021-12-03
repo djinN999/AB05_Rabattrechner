@@ -10,18 +10,18 @@ namespace AB05
 			int anzahl;
 			string ware;
 
-			Console.WriteLine("Rabattrechner");
+			Console.Write("Rabattrechner");
 
-			Console.WriteLine("\nWelches Produkt wurde gekauft? ");
+			Console.Write("\nWelches Produkt wurde gekauft? ");
 			ware = Convert.ToString(Console.ReadLine());
 
-			Console.WriteLine("Wie hoch ist der Einzelpreis? ");
+			Console.Write("Wie hoch ist der Einzelpreis? ");
 			einzelpreis = Convert.ToDouble(Console.ReadLine());
 
-			Console.WriteLine("Wie viel Stück haben Sie davon gekauft? ");
+			Console.Write("Wie viel Stück haben Sie davon gekauft? ");
 			anzahl = Convert.ToInt32(Console.ReadLine());
 
-			Console.WriteLine("Wie viel Rabatt wollen Sie gewähren? ");
+			Console.Write("Wie viel Rabatt wollen Sie gewähren? ");
 			rabattprozent = Convert.ToDouble(Console.ReadLine());
 
 			Console.Clear();
